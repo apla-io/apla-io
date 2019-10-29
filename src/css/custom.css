@@ -2208,8 +2208,8 @@ fieldset:disabled a.btn {
 }
 .btn-success {
   color: #fff;
-  background-color: #42ba96;
-  border-color: #42ba96;
+  background-color: #2dc783;
+  border-color: #2dc783;
   box-shadow: none;
 }
 .btn-success:hover {
@@ -4509,7 +4509,7 @@ a.badge-secondary:focus {
 }
 .badge-success {
   color: #fff;
-  background-color: #42ba96;
+  background-color: #2dc783;
 }
 a.badge-success:focus,
 a.badge-success:hover {
@@ -11986,7 +11986,7 @@ button.bg-black:hover {
   color: #fff !important;
 }
 .text-primary {
-  color: #335eea !important;
+  color: #288ed0 !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -12514,13 +12514,13 @@ a.badge-gray-700-soft:hover {
   color: #fff;
 }
 .btn-primary-soft {
-  background-color: rgba(51, 94, 234, 0.1);
-  color: #335eea;
+  background-color: rgba(51, 142, 234, 0.1);
+  color: #288ed0;
 }
 .btn-primary-soft:focus,
 .btn-primary-soft:hover {
-  background-color: rgba(51, 94, 234, 0.15);
-  color: #335eea;
+  background-color: rgba(51, 142, 234, 0.15);
+  color: #288ed0;
 }
 .btn-secondary-soft {
   background-color: rgba(80, 102, 144, 0.1);
