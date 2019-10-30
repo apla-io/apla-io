@@ -146,7 +146,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Join Consortium</a>
+                        <a class="nav-link js-scroll-trigger" target="_blank" data-toggle="modal" data-target="#exampleModal" href="#">Join Consortium</a>
                     </li>
                 </ul>
             </div>
@@ -320,13 +320,54 @@
                     </p> -->
                 </div>
                 <div class="col-4 text-center align-self-center">
-                    <a href="#" target="_blank" class="btn btn-success lift">
+                    <a href="#" target="_blank" data-toggle="modal" data-target="#exampleModal" class="btn btn-success lift">
                         Get started <i class="fe fe-arrow-right"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-center" id="exampleModalLabel">Join the Consortium Network.</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="card-body">
+                
+                <!-- Form -->
+                <form>
+                  <div class="form-label-group">
+                    <input type="text" class="form-control form-control-flush" id="cardName" placeholder="Name" bg-color="rgb(255, 255, 255)" style="transition: background 0.4s ease 0s; background-color: rgb(255, 255, 255);">
+                    <label for="cardName">Name</label>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="email" class="form-control form-control-flush" id="cardEmail" placeholder="Email">
+                    <label for="cardEmail">Email</label>
+                  </div>
+                  <div class="mt-6">
+                    <button class="btn btn-block btn-success lift" type="submit">
+                      Get started
+                    </button>
+                  </div>
+                </form>
+
+              </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
     <footer class="py-8 py-md-11 bg-gray-200">
         <div class="container">
             <div class="row">
@@ -376,14 +417,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col text-right align-self-center">
+                <div class="col text-right">
                 <img src="./src/img/lux.svg" alt="..." class="footer-brand footer-brand-img img-fluid mb-2">
             </div>
             </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -391,7 +432,7 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script> -->
+    </script>
 </body>
 
 </html>
