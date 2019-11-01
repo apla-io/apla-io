@@ -13025,6 +13025,10 @@ a.card:hover {
   max-height: 2.4rem;
   width: auto;
 }
+.navbar-brand-img.nid {
+  max-height: 3rem;
+  width: auto;
+}
 .navbar-dark .navbar-brand {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
